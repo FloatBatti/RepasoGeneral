@@ -1,0 +1,27 @@
+<div>
+  <h2 class="custom-dialog-title">Agregar Tarea</h2>
+  <form autocomplete="off" class="login-form" (ngSubmit)="createPerson()">
+
+    <div class="form-field">
+      <label for="nombre">Nombre:</label>
+      <input type="text" id="nombre" name="nombre" [(ngModel)]="newPerson.name" required>
+    </div>
+
+    <div class="form-field">
+      <label for="apellido">Apellido:</label>
+      <input type="text" id="apellido" name="apellido" [(ngModel)]="newPerson.lastname" required>
+    </div>
+
+    <div class="form-field">
+      <label for="dni">DNI:</label>
+      <input type="text" id="dni" name="dni" [(ngModel)]="newPerson.dni" required>
+    </div>
+
+    <div class="form-field">
+      <label for="ciudad">Ciudad:</label>
+      <input type="text" id="ciudad" name="ciudad" [(ngModel)]="newPerson.city" required>
+    </div>
+
+    <button type="submit" class="login-button">Crear Persona</button>
+  </form>
+</div>

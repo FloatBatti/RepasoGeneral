@@ -1,0 +1,54 @@
+/* Paleta de colores personalizada */
+.key-features {
+  background-color: #f9f9f9; /* Un color más suave */
+  padding: 60px 0;
+  text-align: center;
+}
+
+.key-features h2 {
+  color: #007BFF; /* Un color más llamativo para el título */
+  font-family: 'YourCustomFont', sans-serif; /* Personaliza la fuente */
+  margin-bottom: 30px;
+}
+
+/* Estilo para cada característica individual */
+.feature {
+  display: inline-block;
+  width: 30%;
+  padding: 20px;
+  margin: 10px;
+  background-color: #fff; /* Fondo blanco */
+  border: 2px solid #007BFF; /* Borde más grueso y color llamativo */
+  border-radius: 10px;
+  text-align: center;
+  transition: transform 0.3s; /* Agregar una transición */
+}
+
+.feature:hover {
+  transform: scale(1.05); /* Efecto de escala al pasar el mouse sobre las características */
+}
+
+.feature h3 {
+  color: #333;
+  font-size: 1.4em; /* Tamaño de fuente ligeramente mayor */
+}
+
+.feature p {
+  color: #666;
+  font-size: 1em;
+}
+
+/* Estilos para el botón Iniciar Sesión */
+button {
+  background-color: #007BFF; /* Botón azul */
+  color: #fff; /* Texto blanco */
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+  font-size: 1.2em;
+  transition: background-color 0.3s; /* Efecto de cambio de color en hover */
+}
+
+button:hover {
+  background-color: #0056b3; /* Color más oscuro al pasar el mouse */
+}

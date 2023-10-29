@@ -1,0 +1,67 @@
+{
+  "persons": [
+    {
+      "id": 1,
+      "name": "John",
+      "lastname": "Doe",
+      "dni": "12345678",
+      "city": "Mar del Plata"
+    },
+    {
+      "id": 2,
+      "name": "Jane",
+      "lastname": "Smith",
+      "dni": "0987654321",
+      "city": "Los Angeles"
+    },
+    {
+      "id": 3,
+      "name": "Michael",
+      "lastname": "Johnson",
+      "dni": "4567890123",
+      "city": "Chicago"
+    },
+    {
+      "id": 4,
+      "name": "Emily",
+      "lastname": "Davis",
+      "dni": "3210987654",
+      "city": "Houston"
+    },
+    {
+      "id": 5,
+      "name": "Daniel",
+      "lastname": "Wilson",
+      "dni": "6789012345",
+      "city": "Phoenix"
+    },
+    {
+      "id": 6,
+      "name": "Olivia",
+      "lastname": "Taylor",
+      "dni": "5432109876",
+      "city": "Philadelphia"
+    },
+    {
+      "id": 7,
+      "name": "David",
+      "lastname": "Anderson",
+      "dni": "8901234567",
+      "city": "San Antonio"
+    },
+    {
+      "id": 8,
+      "name": "Sophia",
+      "lastname": "Thomas",
+      "dni": "2345678901",
+      "city": "San Diego"
+    }
+  ],
+  "users": [
+    {
+      "id": 1,
+      "email": "admin@gmail.com",
+      "password": "admin123"
+    }
+  ]
+}

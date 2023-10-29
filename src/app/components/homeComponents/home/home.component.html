@@ -1,0 +1,6 @@
+<div class="persons">
+  <app-view-persons [inputPersons]="persons" (personToEdit)="editPerson($event)" (personToDelete)="deletePerson($event)"></app-view-persons>
+  <app-add-person (personToCreate)="createPerson($event)"></app-add-person>
+</div>
+
+<app-footer></app-footer>

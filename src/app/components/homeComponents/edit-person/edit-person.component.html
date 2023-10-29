@@ -1,0 +1,34 @@
+<h2 mat-dialog-title class="custom-dialog-title">Editar Persona</h2>
+
+<div mat-dialog-content>
+
+  <form (ngSubmit)="editPerson()" class="custom-form">
+    <!-- Tu formulario de edición de tareas aquí -->
+    <div class="form-field">
+      <label for="name">Nombre:</label>
+      <input type="text" id="name" name="name" [value]="person.name" [(ngModel)]="person.name" required>
+    </div>
+
+    <div class="form-field">
+      <label for="lastname">Apellido:</label>
+      <input id="text" name="lastname" [value]="person.lastname" [(ngModel)]="person.lastname" required>
+    </div>
+
+    <div class="form-field">
+      <label for="dni">DNI:</label>
+      <input type="text" id="dni" name="dni" [value]="person.dni" [(ngModel)]="person.dni" required>
+    </div>
+
+    <div class="form-field">
+      <label for="city">Ciudad:</label>
+      <input id="text" name="city" [value]="person.city" [(ngModel)]="person.city" required>
+    </div>
+
+    <!-- Otros campos del formulario si es necesario -->
+
+    <button type="submit" class="custom-button">Guardar Cambios</button>
+  </form>
+  <div mat-dialog-actions>
+    <button mat-button (click)="closeDialog()" class="custom-button" >Cancelar</button>
+  </div>
+</div>

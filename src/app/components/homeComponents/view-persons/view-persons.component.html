@@ -1,0 +1,27 @@
+<div>
+  <h2>Personas</h2>
+  <table class="my-table">
+    <thead>
+      <tr>
+        <th>ID</th>
+        <th>Name</th>
+        <th>Last Name</th>
+        <th>DNI</th>
+        <th>City</th>
+        <th>Delete</th>
+        <th>Edit</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr *ngFor="let person of inputPersons">
+        <td>{{ person.id }}</td>
+        <td>{{ person.name }}</td>
+        <td>{{ person.lastname }}</td>
+        <td>{{ person.dni }}</td>
+        <td>{{ person.city }}</td>
+        <td><button class="delete-button" (click)="deletePerson(person.id!)">X</button></td>
+        <td><button class="edit-button" (click)="editPerson(person)">E</button></td>
+      </tr>
+    </tbody>
+  </table>
+</div>

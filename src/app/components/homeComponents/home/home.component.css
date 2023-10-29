@@ -1,0 +1,9 @@
+.persons{
+  display: flex;
+  margin-bottom: 50px;
+}
+
+app-add-person{
+  margin-left: 50px;
+  margin-top: 52px;
+}

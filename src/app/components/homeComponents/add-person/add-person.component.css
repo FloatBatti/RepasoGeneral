@@ -1,0 +1,29 @@
+.custom-dialog-title {
+  font-size: 20px;
+  background-color: #4CAF50; /* Cambia el color de fondo si lo deseas */
+  color: #fff;
+  padding: 10px;
+  text-align: center;
+}
+
+.login-form {
+  padding: 20px;
+  max-height: 300px;
+  overflow-y: auto;
+}
+
+.form-field {
+  margin-bottom: 20px;
+}
+
+.login-button {
+  background-color: #4CAF50; /* Cambia el color de fondo si lo deseas */
+  color: #fff;
+  border: none;
+  padding: 10px 20px;
+  cursor: pointer;
+}
+
+.login-button:hover {
+  background-color: #45a049; /* Cambia el color de fondo cuando se hace hover si lo deseas */
+}

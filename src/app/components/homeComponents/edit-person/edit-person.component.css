@@ -1,0 +1,27 @@
+.custom-dialog-title {
+  font-size: 20px;
+  background-color: #2196F3;
+  color: #fff;
+  padding: 10px;
+  text-align: center;
+}
+
+.custom-form {
+  padding: 20px;
+}
+
+.form-field {
+  margin-bottom: 20px;
+}
+
+.custom-button {
+  background-color: #2196F3;
+  color: #fff;
+  border: none;
+  padding: 10px 20px;
+  cursor: pointer;
+}
+
+.custom-button:hover {
+  background-color: #0F5C9E;
+}
